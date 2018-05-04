@@ -1,0 +1,26 @@
+# /etc/conf.d/mitrad: config file for /etc/init.d/mitrad
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/mitra/mitra.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/mitrad"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/mitrad.pid"
+
+# Where to write mitrad data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/mitrad"
+
+# User and group to own mitrad process
+#BITCOIND_USER="mitra"
+#BITCOIND_GROUP="mitra"
+
+# Path to mitrad executable
+#BITCOIND_BIN="/usr/bin/mitrad"
+
+# Nice value to run mitrad under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
